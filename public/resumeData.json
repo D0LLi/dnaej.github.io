@@ -5,14 +5,14 @@
         "image": "profilepic.jpg",
         "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
         "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-        "email": "youremailhere@gmail.com",
-        "phone": "555-555-5555",
+        "email": "",
+        "phone": "",
         "github": "https://github.com/dnaej",
-        "project": "https://github.com/",
+        "project": "",
         "address": {
-            "street": "(Your Street)",
-            "city": "(Your City)",
-            "state": "(Your State)"
+            "street": "",
+            "city": "",
+            "state": ""
         },
         "website": "https://github.com/",
         "resumedownload": "https://github.com/",
@@ -82,51 +82,83 @@
         ],
         "skills": [
             {
-                "name": "HTML",
-                "level": "90%"
+                "name": "Javascript"
             },
             {
-                "name": "CSS",
-                "level": "90%"
+                "name": "HTML"
             },
             {
-                "name": "ReactJs",
-                "level": "50%"
+                "name": "CSS"
             },
             {
-                "name": "Javascript",
-                "level": "90%"
+                "name": "Kendo UI"
             },
             {
-                "name": "JAVA",
-                "level": "70%"
+                "name": "ReactJS"
+            },
+            {
+                "name": "C# & .Net Core"
+            },
+            {
+                "name": "NodeJs"
+            },
+            {
+                "name": "Java"
             }
         ]
     },
     "portfolio": {
         "projects": [
             {
-                "title": "Gryffindor Project",
-                "category": "Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified.",
+                "title": "UX/UI Design",
+                "category": "Design",
                 "image": "project1.jpg",
                 "url": "https://www.google.com"
             },
             {
-                "title": "Gryffindor Project",
-                "category": "Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified.",
+                "title": "Development",
+                "category": "Development",
+                "image": "project4.jpg",
+                "url": "https://www.google.com"
+            },
+            {
+                "title": "Graphics & Illustration",
+                "category": "Design",
                 "image": "project2.jpg",
                 "url": "https://www.google.com"
             },
             {
-                "title": "Gryffindor Project",
-                "category": "Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified.",
+                "title": "Digital Media Design",
+                "category": "Design",
                 "image": "project3.jpg",
                 "url": "https://www.google.com"
             },
             {
-                "title": "Gryffindor Project",
-                "category": "Magic Nagini bezoar, Hippogriffs Headless Hunt giant squid petrified.",
+                "title": "Interior Design",
+                "category": "Design",
                 "image": "project4.jpg",
+                "url": "https://www.google.com"
+            }
+        ]
+    },
+    "hobbies": {
+        "projects": [
+            {
+                "title": "Photography",
+                "category": "Design",
+                "image": "project1.jpg",
+                "url": "https://www.google.com"
+            },
+            {
+                "title": "Novel Reveries",
+                "category": "Writing",
+                "image": "project4.jpg",
+                "url": "https://www.google.com"
+            },
+            {
+                "title": "Product Design",
+                "category": "Design",
+                "image": "project2.jpg",
                 "url": "https://www.google.com"
             }
         ]
