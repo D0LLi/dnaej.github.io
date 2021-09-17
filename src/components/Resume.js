@@ -17,10 +17,8 @@ export default function Resume(props) {
         })
 
         var skills = props.data.skills.map((skills) => {
-            //var className = 'bar-expand ' + skills.name.toLowerCase();
             return (
                 <li key={skills.name}>
-                    {/* <span style={{ width: skills.level, backgroundColor: '#740001' }} className={className}></span> */}
                     <em>{skills.name}</em>
                 </li>
             )
@@ -63,7 +61,7 @@ export default function Resume(props) {
                 <div className="nine columns main-col">
                     <p>{skillmessage}
                     </p>
-                    <div className="bars">
+                    <div>
                         <ul className="skills">
                             {skills}
                         </ul>

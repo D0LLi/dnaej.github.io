@@ -1,10 +1,10 @@
 {
     "main": {
-        "name": "Denee' Jones",
-        "description": "I'm a developer and ux/ui designer",
+        "name": "Deneé Jones",
+        "description": "Developer and Designer",
         "image": "profilepic.jpg",
-        "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-        "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+        "bio": "Welcome! I'm Deneé, and I love development and design! I enjoy problem solving and creatively coming up with solutions for human interactive experiences. When I'm not contemplating the next great idea, I love settling inside a good book, getting my hands dirty in the garden and sketching the world seen through my eyes.",
+        "contactmessage": "Get in Contact",
         "email": "",
         "phone": "",
         "github": "https://github.com/dnaej",
@@ -33,9 +33,9 @@
                 "className": "fa fa-linkedin"
             },
             {
-                "name": "instagram",
-                "url": "http://instagram.com/",
-                "className": "fa fa-instagram"
+                "name": "Interaction Design Foundation",
+                "url": "http://www.interaction-design.org/denee",
+                "className": "fa fa-university"
             },
             {
                 "name": "github",
@@ -45,7 +45,7 @@
         ]
     },
     "resume": {
-        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+        "skillmessage": "Technical Skills",
         "education": [
             {
                 "school": "Franklin University",
