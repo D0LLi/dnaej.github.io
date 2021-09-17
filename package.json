@@ -1,12 +1,11 @@
 {
   "name": "personalportfolio",
   "version": "0.1.0",
-  "homepage":"https://dnaej.github.io",
+  "homepage": "https://dnaej.github.io",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "anix": "^0.3.3",
-    "gh-pages": "^3.1.0",
     "jquery": "^3.2.1",
     "materialize-css": "^1.0.0-rc.2",
     "particles-bg": "^2.3.12",
@@ -17,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy" :"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -25,5 +24,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
