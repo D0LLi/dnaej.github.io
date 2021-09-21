@@ -1,8 +1,8 @@
 {
     "main": {
-        "name": "Deneé Jones",
-        "description": "Developer and Designer",
-        "image": "profilepic.jpg",
+        "name": "Deneé",
+        "description": "Developer and Designer | A Work in Progress",
+        "image": "PortProfile.jpg",
         "bio": "Welcome! I'm Deneé, and I love development and design! I enjoy problem solving and creatively coming up with solutions for human interactive experiences. When I'm not contemplating the next great idea, I love settling inside a good book, getting my hands dirty in the garden and sketching the world seen through my eyes.",
         "contactmessage": "Get in Contact",
         "email": "",
@@ -51,19 +51,19 @@
                 "school": "Franklin University",
                 "degree": "Bachelor's in Applied Science - Interactive Media Design",
                 "graduated": "December 2022",
-                "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+                "description": ""
             },
             {
                 "school": "Sinclair College",
                 "degree": "Associate's in Applied Science - CIS, Software Development",
                 "graduated": "August 2018",
-                "description": "Received 10 Outstandings in Care of Magical Creatures, Transfiguration, Potions, Charms, Herbology, Astronomy, History of Magic, Arithmancy, Ancient Runes, and Wandmaking."
+                "description": ""
             },
             {
                 "school": "Sinclair College",
                 "degree": "Associate's in Applied Science - Interior Design",
                 "graduated": "June 2011",
-                "description": "Received 10 Outstandings in Care of Magical Creatures, Transfiguration, Potions, Charms, Herbology, Astronomy, History of Magic, Arithmancy, Ancient Runes, and Wandmaking."
+                "description": ""
             }
         ],
         "work": [
@@ -71,13 +71,13 @@
                 "company": "Mile Two, LLC",
                 "title": "Associate UX/UI Designer",
                 "years": "August 2021 - Present",
-                "description": "Work to put an end to pro-pureblood laws through negotiation, petitions, and enforcing and creating fair laws for the wizarding community.s"
+                "description": ""
             },
             {
                 "company": "Caresource",
                 "title": "Application Developer I",
                 "years": "August 2018 - Auguest 2021",
-                "description": "Worked to improve the quality of life for house-elves and other disenfranchised creatures."
+                "description": "W"
             }
         ],
         "skills": [
@@ -108,7 +108,7 @@
         ]
     },
     "portfolio": {
-        "projects": [
+        "workprojects": [
             {
                 "title": "UX/UI Design",
                 "category": "Design",
@@ -139,10 +139,8 @@
                 "image": "project4.jpg",
                 "url": "https://www.google.com"
             }
-        ]
-    },
-    "hobbies": {
-        "projects": [
+        ],
+        "hobbyprojects": [
             {
                 "title": "Photography",
                 "category": "Design",
