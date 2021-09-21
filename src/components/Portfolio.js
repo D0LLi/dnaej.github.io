@@ -21,7 +21,7 @@ export default function Portfolio(props) {
     const classes = useStyles();
 
     if (props.data) {
-        var projects = props.data.projects.map(function (projects) {
+        var projects = props.data.workprojects.map(function (projects) {
             var projectImage = 'images/portfolio/' + projects.image;
 
             return (
@@ -38,6 +38,24 @@ export default function Portfolio(props) {
                 </div>
             )
         })
+
+        var hobbies = props.data.hobbyprojects.map(function (hobbies) {
+            var hobbyImage = 'images/hobbies/' + hobbies.image;
+            
+            return (
+                <div key={hobbies.title} className="columns portfolio-item">
+                <Card className={classes.card}>
+                    <CardActionArea href={hobbies.url}>
+                        <CardMedia className={classes.media} image={hobbyImage} title={hobbies.title} />
+                        <CardContent>
+                            <Typography gutterBottom variant="h5" component="h2">{hobbies.title}</Typography>
+                            <Typography variant="body2" gutterBottom>{hobbies.category}</Typography>
+                        </CardContent>
+                    </CardActionArea>
+                </Card>
+                </div>
+            )
+        })
     }
 
     return (
@@ -47,8 +65,12 @@ export default function Portfolio(props) {
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                         {projects}
                     </div>
-            </Container>     
-        </section>
+            <h1>Check Out Some of My Hobbies</h1>
+            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+                    {hobbies}
+                </div>
+            </Container>   
+    </section>
     );
 }
 
