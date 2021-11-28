@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
+import GardenOfEatin from './components/GardenOfEatin';
+import { baseUrl } from './shared/baseUrl';
 
 
 class App extends Component {
@@ -44,6 +46,7 @@ class App extends Component {
                 <Header data={this.state.resumeData.main} />
                 <About data={this.state.resumeData.main} />
                 {/* <Resume data={this.state.resumeData.resume} /> */}
+                <GardenOfEatin data={this.state.resumeData.goe} src={baseUrl + "/GardenOfEatin"} />
                 <Portfolio data={this.state.resumeData.portfolio} />
                 <Footer data={this.state.resumeData.main} />
             </div>
