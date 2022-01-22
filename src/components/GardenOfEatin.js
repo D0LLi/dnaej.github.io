@@ -22,7 +22,7 @@ export default function GardenOfEatin(props) {
 
     if (props.data) {
         var goeProjects = props.data.projects.map(function (projects) {
-            var projectImage = 'images/goe/' + projects.image;
+            var projectImage = 'images/WIP/' + projects.image;
 
             return (
                 <div key={projects.title} className="columns portfolio-item">

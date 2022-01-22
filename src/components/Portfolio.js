@@ -27,7 +27,7 @@ export default function Portfolio(props) {
             return (
                 <div key={projects.title} className="columns portfolio-item">
                 <Card className={classes.card}>
-                    <CardActionArea href={projects.url}>
+                    <CardActionArea href={projects.alturl}>
                         <CardMedia className={classes.media} image={projectImage} title={projects.title} />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="h2">{projects.title}</Typography>
@@ -45,7 +45,7 @@ export default function Portfolio(props) {
             return (
                 <div key={hobbies.title} className="columns portfolio-item">
                 <Card className={classes.card}>
-                    <CardActionArea href={hobbies.url}>
+                    <CardActionArea href={hobbies.alturl}>
                         <CardMedia className={classes.media} image={hobbyImage} title={hobbies.title} />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="h2">{hobbies.title}</Typography>

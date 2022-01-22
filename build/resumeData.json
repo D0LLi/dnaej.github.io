@@ -8,6 +8,7 @@
         "email": "",
         "phone": "",
         "github": "https://github.com/dnaej",
+        "linkedin": "https://www.linkedin.com/in/deneejones/",
         "project": "",
         "address": {
             "street": "",
@@ -29,7 +30,7 @@
             },
             {
                 "name": "linkedin",
-                "url": "https://www.linkedin.com/deneejones",
+                "url": "https://www.linkedin.com/in/deneejones",
                 "className": "fa fa-linkedin"
             },
             {

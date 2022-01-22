@@ -6,6 +6,7 @@ export default function About(props) {
         var name = props.data.name;
         var profilepic = 'images/' + props.data.image;
         var bio = props.data.bio;
+        var about = props.data.aboutme;
         var street = props.data.address.street;
         var city = props.data.address.city;
         var state = props.data.address.state;
@@ -21,7 +22,7 @@ export default function About(props) {
                     <img className="profile-pic" src={profilepic} alt="Deneé Profile Picture" />
                 </div>
                 <div className="nine columns main-col">
-                    <h2>About Me</h2>
+                    <h2><a href={about}>About Me</a></h2>
 
                     <p>{bio}</p>
                     <div className="row">
@@ -38,7 +39,7 @@ export default function About(props) {
                         </div>
                         <div className="columns download">
                             <p>
-                                <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                                <a href={resumeDownload} className="button"><i className="fab fa-linkedin"></i>Visit on LinkedIn</a>
                             </p>
                         </div>
                     </div>

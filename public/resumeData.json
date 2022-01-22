@@ -1,13 +1,16 @@
 {
     "main": {
         "name": "Deneé",
-        "description": "Developer and Designer | A Work in Progress",
+        "description": "Developer and Designer | This new portfolio is a Work in Progress",
         "image": "PortProfile.jpg",
         "bio": "Welcome! I'm Deneé, and I love development and design! I enjoy problem solving and creatively coming up with solutions for human interactive experiences. When I'm not contemplating the next great idea, I love settling inside a good book, getting my hands dirty in the garden and sketching the world seen through my eyes.",
         "contactmessage": "Get in Contact",
         "email": "",
         "phone": "",
         "github": "https://github.com/dnaej",
+        "linkedin": "https://www.linkedin.com/in/deneejones/",
+        "portfolio": "https://denejon.myportfolio.com",
+        "aboutme": "https://denejon.myportfolio.com/about-me",
         "project": "",
         "address": {
             "street": "",
@@ -15,22 +18,22 @@
             "state": ""
         },
         "website": "https://github.com/",
-        "resumedownload": "https://github.com/",
+        "resumedownload": "https://www.linkedin.com/in/deneejones/",
         "social": [
             {
                 "name": "facebook",
                 "url": "https://github.com/",
-                "className": "fa fa-facebook"
+                "className": "fab fa-facebook"
             },
             {
                 "name": "twitter",
                 "url": "http://twitter.com",
-                "className": "fa fa-twitter"
+                "className": "fab fa-twitter"
             },
             {
                 "name": "linkedin",
-                "url": "https://www.linkedin.com/deneejones",
-                "className": "fa fa-linkedin"
+                "url": "https://www.linkedin.com/in/deneejones/",
+                "className": "fab fa-linkedin"
             },
             {
                 "name": "Interaction Design Foundation",
@@ -40,7 +43,7 @@
             {
                 "name": "github",
                 "url": "https://github.com/dnaej",
-                "className": "fa fa-github"
+                "className": "fab fa-github"
             }
         ]
     },
@@ -56,7 +59,7 @@
             {
                 "school": "Sinclair College",
                 "degree": "Associate's in Applied Science - CIS, Software Development",
-                "graduated": "August 2018",
+                "graduated": "Aug. 2018",
                 "description": ""
             },
             {
@@ -77,7 +80,7 @@
                 "company": "Caresource",
                 "title": "Application Developer I",
                 "years": "August 2018 - Auguest 2021",
-                "description": "W"
+                "description": ""
             }
         ],
         "skills": [
@@ -110,64 +113,93 @@
     "portfolio": {
         "workprojects": [
             {
-                "title": "UX/UI Design",
-                "category": "Design",
-                "image": "project1.jpg",
-                "url": "https://www.google.com"
-            },
-            {
                 "title": "Development",
                 "category": "Development",
-                "image": "project4.jpg",
-                "url": "https://www.google.com"
+                "image": "DevCover.jpg",
+                "url": "/Development",
+                "alturl": "https://denejon.myportfolio.com/development"
+            },
+            {
+                "title": "UX/UI Design",
+                "category": "Design",
+                "image": "UXCover.jpg",
+                "url": "/UXUIDesign",
+                "alturl": "https://denejon.myportfolio.com/ux-design"
+            },
+            {
+                "title": "Web Design",
+                "category": "Design",
+                "image": "WebDesignCover.png",
+                "url": "/UXUIDesign",
+                "alturl": "https://denejon.myportfolio.com/ux-design"
             },
             {
                 "title": "Graphics & Illustration",
                 "category": "Design",
-                "image": "project2.jpg",
-                "url": "https://www.google.com"
+                "image": "IllustCover.jpg",
+                "url": "/GraphicDesign",
+                "alturl": "https://denejon.myportfolio.com/graphic-design"
             },
             {
                 "title": "Digital Media Design",
                 "category": "Design",
-                "image": "project3.jpg",
-                "url": "https://www.google.com"
+                "image": "digitalMediacover.jpg",
+                "url": "/DigitalMediaDesign",
+                "alturl":"https://denejon.myportfolio.com/digital-media-design"
             },
             {
                 "title": "Interior Design",
                 "category": "Design",
-                "image": "project4.jpg",
-                "url": "https://www.google.com"
+                "image": "IntDesignCover.jpg",
+                "url": "/InteriorDesign",
+                "alturl": "https://denejon.myportfolio.com/interior-design"
             }
         ],
         "hobbyprojects": [
             {
+                "title": "Gardening",
+                "category": "Hobby",
+                "image": "GardenCover.jpg",
+                "url": "/Gardening",
+                "alturl": "https://denejon.myportfolio.com/gardening"
+            },
+            {
                 "title": "Photography",
                 "category": "Design",
-                "image": "project1.jpg",
-                "url": "https://www.google.com"
+                "image": "PhotoCover.jpg",
+                "url": "/Photography",
+                "alturl": "https://denejon.myportfolio.com/photography"
+            },
+            {
+                "title": "Drawing",
+                "category": "Design",
+                "image": "/DrawingCover.jpg",
+                "url": "/Drawing",
+                "alturl": "https://denejon.myportfolio.com/2d-design"
             },
             {
                 "title": "Novel Reveries",
                 "category": "Writing",
-                "image": "project4.jpg",
-                "url": "https://www.google.com"
+                "image": "NovRevCover.jpg",
+                "url": "/NovelReveries",
+                "alturl": "https://denejon.myportfolio.com/novel-reveries-review-blog"
             },
             {
                 "title": "Product Design",
                 "category": "Design",
-                "image": "project2.jpg",
-                "url": "https://www.google.com"
+                "image": "/ProductDesign.jpg",
+                "url": "/ProductDesign",
+                "alturl": "https://denejon.myportfolio.com/products"
             }
         ]
     },
-    "goe": {
+    "workinprogress": {
         "projects": [
             {
-                "title": "Design Brief",
-                "category": "GRPH 310",
-                "image": "project1.jpg",
-                "url": "https://www.google.com"
+                "title": "Burn Barn Studio",
+                "category": "Design and Development",
+                "image": "BurnBarnLogo.jpg",
+                "url": "https://BurnBarnStudio.com"
             }
         ]
     }
