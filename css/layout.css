@@ -198,7 +198,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 #about p {
    line-height: 30px;
-   color: #ccc;
+   color: rgb(19, 18, 18);
 }
 #about .profile-pic {
    position: relative;
@@ -214,7 +214,7 @@ ul#nav li.current a { color: #fe6928; }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: #2b8692;
 }
 #about .download .button:hover {
    background: #fff;
@@ -231,7 +231,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: rgb(255, 255, 255);
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -412,7 +412,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #000000;
    padding-top: 90px;
    padding-bottom: 60px;
 }
