@@ -6,7 +6,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.3",
     "anix": "^0.3.3",
-    "jquery": "^3.2.1",
+    "jquery": "3.7.1",
     "materialize-css": "^1.0.0-rc.2",
     "particles-bg": "^2.3.12",
     "react": "^16.2.0",
